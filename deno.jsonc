@@ -1,0 +1,32 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert",
+    "@std/dotenv": "jsr:@std/dotenv@^0.225.2",
+    "grammy": "https://deno.land/x/grammy@v1.30.0/mod.ts"
+  },
+  "lint": {
+    "include": [
+      "src/**/*.ts"
+    ]
+  },
+  "fmt": {
+    "indentWidth": 2,
+    "lineWidth": 100,
+    "useTabs": false,
+    "singleQuote": true,
+    "semiColons": false,
+    "proseWrap": "never",
+    "exclude": [
+      "_",
+      "._*",
+      "dist",
+      "build",
+      ".direnv",
+      ".devenv",
+      "node_modules"
+    ]
+  }
+}

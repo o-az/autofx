@@ -1,0 +1,28 @@
+{
+  "deno.enable": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "files.associations": {
+    ".env": "dotenv",
+    ".env.*": "dotenv",
+    ".envrc": "shellscript"
+  },
+  "files.exclude": {
+    "._*": true,
+    ".devenv": true,
+    ".direnv": true,
+    ".devenv.flake.nix": true
+  }
+}
